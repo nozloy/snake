@@ -16,6 +16,10 @@ namespace snakeapp
             Point p2 = new Point(4,5,'*');
             p2.Draw();
 
+            //Hline Line = new Hline(1,90,8,'+');
+            //Line.DrawLine();
+            Vline Line2 = new Vline(6, 1, 8, '+');
+            Line2.DrawLine();
             Console.ReadLine();
         }
 
