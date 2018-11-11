@@ -10,7 +10,11 @@ namespace snakeapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            int x1 = 1;
+            int y1 = 1;
+            char sym1 = '#';
+            Console.SetCursorPosition(x1 , y1 );
+            Console.Write(sym1);
             Console.ReadLine();
         }
     }
